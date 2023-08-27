@@ -15,7 +15,7 @@ function App() {
             { title: "Gender", field: "gender" },
             { title: "Culture", field: "culture" },
             { title: "Born", field: "born" },
-            { title: "Died", field: "died" }, 
+            { title: "Died", field: "died" },
           ]}
           data={(query) =>
             new Promise((resolve, reject) => {
